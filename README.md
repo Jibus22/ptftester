@@ -13,33 +13,20 @@ x----------- 4 - sh test.sh [-%cspdux[mix]]     ---------x
 x--------------------------------------------------------x
                                                           
 x-------------  You can specifie options to -------------x
-
 x-------------  the script to choose which  -------------x
-
 x-------------  printf type you wanna test, -------------x
-
 x-------------  one by one. If no option    -------------x
-
 x-------------  is specified, it will run   -------------x
-
 x-------------  all tests. It doesn't test  -------------x
-
 x-------------   return value (sorry !).    -------------x
                                                           
-X--------------------------------------------------------X
-                                                          
-x-------------  Your ftprintf tree :        -------------x
-                                                          
+X--------------------------------------------------------X                                                          
+x-------------  Your ftprintf tree :        -------------x                                                          
 x-------------  /.h                         -------------x
-
 x-------------  /*.c                        -------------x
-
 x-------------  /libft/.h                   -------------x
-
 x-------------  /libft/*.c                  -------------x
-
-x-------------  /ptftester                  -------------x
-                                                          
+x-------------  /ptftester                  -------------x                                                          
 X--------------------------------------------------------X
                                                           
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
