@@ -1,9 +1,18 @@
-COMP='gcc -Wall -Wextra -Werror'
-GREEN='\033[7;96m'
-BLUE='\033[7;94m'
-CEND='\033[0m'
+LIBPATH='.'
+INCLUDEPATH='.'
+LIBFTPATH='./libft'
 
-cd .. && Make && cd ptftester;
+if [ -e "libftprintf.a" ]; then
+	rm -rf libftprintf.a;
+fi
+
+cd .. && Make;
+
+cp $LIBPATH/libftprintf.a ./ptftester/libftprintf.a;
+cp $INCLUDEPATH/ft_printf.h ./ptftester/ft_printf.h;
+cp $LIBFTPATH/libft.h ./ptftester/libft.h;
+
+cd ./ptftester;
 
 if [ "$1" == "s" ]; then
 	cd scripts && sh stest.sh && cd ..

@@ -1,13 +1,15 @@
-COMP='gcc -Wall -Wextra -Werror'
 GREEN='\033[7;96m'
 BLUE='\033[7;94m'
 CEND='\033[0m'
+
+COMP='gcc -Wall -Wextra -Werror'
+LINECOMMAND='-I ../ ../libftprintf.a' 
 
 echo "\n\t\t\t${GREEN}		     ${CEND}"
 echo "\t\t\t${GREEN}Testing ${CEND}${BLUE}  %p  ${CEND}${GREEN}  ...  ${CEND}"
 echo "\t\t\t${GREEN}		     ${CEND}"
 
-${COMP} ../../libftprintf.a -I ../.. -I ../../libft pmainptf.c -o ftptf.out;
+${COMP} $LINECOMMAND pmainptf.c -o ftptf.out;
 ./ftptf.out > tmp.txt;
 cat -e tmp.txt > ftptf.txt;
 cat -e ptest.txt > ptf.txt
@@ -18,7 +20,7 @@ if [ -e "res.log" ]; then
 	rm -f res.log;
 fi;
 
-${COMP} maincmp.c libft.a -o Result.out;
+${COMP} maincmp.c lib.a -o Result.out;
 ./Result.out;
 
 rm -f ftptf.out ptf.out Result.out;
