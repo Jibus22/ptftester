@@ -7,9 +7,9 @@ PTFTESTER
 2. git clone the ptftester.  
 3. cd ptftester.
 4. open test.sh to check if includes & lib path are good  
+![pathimg](./scripts/.pathimg.png)  
 5. if there aren't, modify them  
 6. ./test.sh [-%cspdux[mix]]  
-7. ![pathimg](./scripts/.pathimg.png)  
 
 -------------------------------  
 
