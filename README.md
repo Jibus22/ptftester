@@ -1,49 +1,28 @@
+PTFTESTER
+-
 
-X----------------------- PTFTESTER ----------------------X
-                                                          
-                                                          
-x------------1 - cd in your ftprintf repository.---------x
-                                                          
-x------------2 - git clone the ptftester.----------------x
-                                                          
-x------------3 - cd ptftester.---------------------------x
-                                                          
-x------------4 - sh test.sh [-%cspdux[mix]]--------------x
-                                                          
-x--------------------------------------------------------x
-                                                          
-x---------------You can specifie options to--------------x
+![prez](./scripts/.prez.png)
 
-x---------------the script to choose which---------------x
+1. cd in your ftprintf repository.  
+2. git clone the ptftester.  
+3. cd ptftester.
+4. open test.sh to check if includes & lib path are good  
+5. if there aren't, modify them  
+6. ./test.sh [-%cspdux[mix]]  
+7. ![pathimg](./scripts/.pathimg.png)  
 
-x---------------printf type you wanna test,--------------x
+-------------------------------  
 
-x---------------one by one. If no option-----------------x
+You can specifie options to  
+the script to choose which  
+printf type you wanna test,  
+one by one. If no option  
+is specified, it will run  
+all tests. It doesn't test  
+return value (sorry !).  
 
-x---------------is specified, it will run----------------x
 
-x---------------all tests. It doesn't test---------------x
-
-x----------------return value (sorry !).-----------------x
-                                                          
-X--------------------------------------------------------X
-                                                          
-x---------------Your ftprintf tree :---------------------x
-                                                          
-x---------------/.h--------------------------------------x
-
-x---------------/*.c-------------------------------------x
-
-x---------------/libft/.h--------------------------------x
-
-x---------------/libft/*.c-------------------------------x
-
-x---------------/ptftester-------------------------------x
-                                                          
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
-x------------------x-----20/04/10-------x----------------x
-
-x------------------x-----jle-corr-------x----------------x
-
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+*xxxxxxxxxxxx  
+xx**24/04/10**xx  
+xx**jle-corr**xxxx  
+xxxxxxxxxxxx*  
