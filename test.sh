@@ -1,3 +1,5 @@
+#!/bin/sh
+
 LIBPATH='.'
 INCLUDEPATH='.'
 LIBFTPATH='./libft'

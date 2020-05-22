@@ -1,8 +1,10 @@
+#!/bin/sh
+
 GREEN='\033[7;96m'
 BLUE='\033[7;94m'
 CEND='\033[0m'
 
-COMP='gcc -Wall -Wextra -Werror'
+COMP='clang -Wall -Wextra -Werror'
 LINECOMMAND='-I ../ ../libftprintf.a' 
 
 echo "\n\t\t\t${GREEN}		     ${CEND}"
