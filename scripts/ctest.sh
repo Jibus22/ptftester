@@ -11,7 +11,7 @@ echo "\n\t\t\t${GREEN}		     ${CEND}"
 echo "\t\t\t${GREEN}Testing ${CEND}${BLUE}  %c  ${CEND}${GREEN}  ...  ${CEND}"
 echo "\t\t\t${GREEN}		     ${CEND}"
 
-$COMP $LINECOMMAND cmainftptf.c -o ftptf.out;
+$COMP cmainftptf.c $LINECOMMAND -o ftptf.out;
 ./ftptf.out > tmp.txt;
 cat -e tmp.txt > ftptf.txt && rm -f tmp.txt;
 $COMP cmainptf.c -o ptf.out;

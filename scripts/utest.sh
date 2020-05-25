@@ -11,7 +11,7 @@ echo "\n\t\t\t${GREEN}		     ${CEND}"
 echo "\t\t\t${GREEN}Testing ${CEND}${BLUE}  %u  ${CEND}${GREEN}  ...  ${CEND}"
 echo "\t\t\t${GREEN}		     ${CEND}"
 
-${COMP} $LINECOMMAND umainftptf.c -o ftptf.out;
+${COMP} umainftptf.c $LINECOMMAND -o ftptf.out;
 ./ftptf.out > ftptf.txt;
 ${COMP} umainptf.c -o ptf.out;
 ./ptf.out > ptf.txt;

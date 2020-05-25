@@ -11,14 +11,14 @@ echo "\n\t\t\t${GREEN}		     ${CEND}"
 echo "\t\t\t${GREEN}Testing ${CEND}${BLUE}  ALL  ${CEND}${GREEN} ...  ${CEND}"
 echo "\t\t\t${GREEN}		     ${CEND}"
 
-${COMP} ${LINECOMMAND} smainftptf.c -o s.out;
-${COMP} ${LINECOMMAND} cmainftptf.c -o c.out;
-${COMP} ${LINECOMMAND} umainftptf.c -o u.out;
-${COMP} ${LINECOMMAND} dmainftptf.c -o d.out;
-${COMP} ${LINECOMMAND} pmainptf.c -o p.out;
-${COMP} ${LINECOMMAND} xmainftptf.c -o x.out;
-${COMP} ${LINECOMMAND} modmainftptf.c -o mod.out;
-${COMP} ${LINECOMMAND} mixmainptf.c -o mix.out;
+${COMP} smainftptf.c ${LINECOMMAND} -o s.out;
+${COMP} cmainftptf.c ${LINECOMMAND} -o c.out;
+${COMP} umainftptf.c ${LINECOMMAND} -o u.out;
+${COMP} dmainftptf.c ${LINECOMMAND} -o d.out;
+${COMP} pmainptf.c ${LINECOMMAND} -o p.out;
+${COMP} xmainftptf.c ${LINECOMMAND} -o x.out;
+${COMP} modmainftptf.c ${LINECOMMAND} -o mod.out;
+${COMP} mixmainptf.c ${LINECOMMAND} -o mix.out;
 
 ./s.out > tmps.txt;
 ./c.out > tmpc.txt;
