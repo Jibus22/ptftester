@@ -8,7 +8,7 @@ if [ -e "libftprintf.a" ]; then
 	rm -rf libftprintf.a;
 fi
 
-cd .. && Make;
+cd .. && make;
 
 cp $LIBPATH/libftprintf.a ./ptftester/libftprintf.a;
 cp $INCLUDEPATH/ft_printf.h ./ptftester/ft_printf.h;
